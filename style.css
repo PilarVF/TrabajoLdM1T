@@ -24,7 +24,7 @@ a {
     text-decoration: none;
     text-shadow: 2px 2px black;
     cursor: pointer;
-    font-size: x-large;
+    font-size: xx-large;
     background-color: rgb(90, 6, 6);
     box-shadow: 5px 5px 5px 0px black;
     border-radius: 0.4em;
@@ -162,9 +162,16 @@ footer {
     }
 }
 
+@media screen and (max-width: 900px) {
+    a {
+        font-size: x-large;
+    }
+}
+
 @media screen and (max-width: 600px) {
     a {
         width: 95%;
+        font-size: xx-large;
         background-color: rgb(138, 6, 6);
     }
 }
