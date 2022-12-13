@@ -11,7 +11,7 @@ body {
 
 nav {
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
     background-color: rgb(198, 40, 40);
 }
 
@@ -46,7 +46,7 @@ h1 {
 }
 
 h1::before {
-    content: "✵ ";
+    content: "🏯 ";
 }
 
 h1:hover {
@@ -157,13 +157,14 @@ footer {
     nav {
         flex-direction: column;
         flex: 50%;
+        align-items: center;
         background-color: transparent;
     }
 }
 
 @media screen and (max-width: 600px) {
     a {
-        width: 95.5%;
+        width: 95%;
         background-color: rgb(138, 6, 6);
     }
 }
