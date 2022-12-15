@@ -207,7 +207,7 @@ footer {
     }
 }
 
-@media screen and (orientation:portrait) and (min-width: 50vw){
+@media screen and (orientation:portrait) {
     #portafoto {
         max-width: 800px;
         max-height: 1200px;
