@@ -20,7 +20,6 @@ a {
     padding-top: 0.2em;
     width: 50%;
     height: 1.9em;
-    align-items: center;
     text-align: center;
     text-decoration: none;
     text-shadow: 2px 2px black;
@@ -97,7 +96,7 @@ li {
 
 #portafoto {
     width: 50vw;
-    height: 57vh;
+    height: 50vh;
     background-color: red;
     display: block;
 }
@@ -204,13 +203,13 @@ footer {
 @media screen and (orientation:landscape) {
     #portafoto {
         max-width: 1920px;
-        max-height: 1080px;
+        max-height: 1280px;
     }
 }
 
 @media screen and (orientation:portrait) {
     #portafoto {
         max-width: 800px;
-        max-height: 1005px;
+        max-height: 1200px;
     }
 }
