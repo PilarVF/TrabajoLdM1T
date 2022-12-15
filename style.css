@@ -104,7 +104,7 @@ li {
 #fotojapon {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 #hiragana {
@@ -115,6 +115,7 @@ li {
     border: 2px;
     border-style: solid;
     border-color: gray;
+    object-fit: contain;
 }
 
 #katakana {
@@ -125,6 +126,7 @@ li {
     border: 2px;
     border-style: solid;
     border-color: gray;
+    object-fit: contain;
 }
 
 footer {
