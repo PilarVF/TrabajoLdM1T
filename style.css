@@ -207,9 +207,16 @@ footer {
     }
 }
 
-@media screen and (orientation:portrait) {
+@media screen and (orientation:portrait) and (min-width: 50vw){
     #portafoto {
         max-width: 800px;
         max-height: 1200px;
+    }
+}
+
+@media screen and (orientation:portrait) and (max-width: 50vw){
+    #portafoto {
+        max-width: 400px;
+        max-height: 600px;
     }
 }
