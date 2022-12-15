@@ -40,7 +40,7 @@ a::before {
     content: "🏯 ";
 }
 
-#activo {
+.activo {
     box-shadow: 5px 5px 5px 0px black inset;
     background-color: rgb(240, 94, 94);
 }
@@ -133,11 +133,11 @@ footer {
     text-align: center;
 }
 
-#copyright {
+.copyright {
     font-size: 1em;
 }
 
-#copyright::first-letter {
+.copyright::first-letter {
     font-size: 1em;
 }
 
@@ -178,7 +178,7 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-    #activo {
+    .activo {
         background-color: rgb(240, 94, 94);
     }
 }
