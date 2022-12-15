@@ -20,6 +20,7 @@ a {
     padding-top: 0.2em;
     width: 50%;
     height: 1.9em;
+    align-content: center;
     text-align: center;
     text-decoration: none;
     text-shadow: 2px 2px black;
@@ -115,7 +116,6 @@ li {
     border: 2px;
     border-style: solid;
     border-color: gray;
-    object-fit: contain;
 }
 
 #katakana {
@@ -126,7 +126,6 @@ li {
     border: 2px;
     border-style: solid;
     border-color: gray;
-    object-fit: contain;
 }
 
 footer {
@@ -213,5 +212,12 @@ footer {
     #portafoto {
         max-width: 800px;
         max-height: 1200px;
+    }
+}
+
+@media screen and (orientation:portrait) and (max-height: 20px) {
+    #portafoto {
+        max-width: 400px;
+        max-height: 600px;
     }
 }
