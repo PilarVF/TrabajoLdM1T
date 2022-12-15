@@ -97,7 +97,7 @@ li {
 
 #portafoto {
     width: 50vw;
-    height: 68vh;
+    height: 50vh;
     background-color: red;
     display: block;
 }
@@ -212,12 +212,5 @@ footer {
     #portafoto {
         max-width: 800px;
         max-height: 1200px;
-    }
-}
-
-@media screen and (orientation:portrait) and (max-height: 20px) {
-    #portafoto {
-        max-width: 400px;
-        max-height: 600px;
     }
 }
